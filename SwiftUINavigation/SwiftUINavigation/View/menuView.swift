@@ -11,21 +11,51 @@ import SwiftUI
 struct MenuView: View {
     // TODO: Use viewmodel
     @Binding var isPresented: Bool
+    
+    var pages = ["Page1", "Page2"]
+    
     var body: some View {
         GeometryReader { geometry in
             HStack(spacing: 0) {
-                VStack {
+                ZStack() {
                     Color(CustomizeColor.navigationBackground)
+                    VStack {
+                        List(self.pages, id: \.self) { (page)  in
+                            HStack {
+                               Text(page)
+                            }
+                            .contentShape(Rectangle())
+                            .onTapGesture {
+                                print("\(page)")
+                                self.isPresented.toggle()
+                            }
+                        }
+                        .onAppear {
+                            UITableView.appearance().separatorColor = .clear
+                            UITableView.appearance().backgroundColor = .clear
+                            UITableViewCell.appearance().backgroundColor = .clear
+                        }
+                    }
+                    .padding(44)
+
                 }
                 .frame(width: 300)
+                .gesture(
+                    DragGesture(minimumDistance: 5, coordinateSpace: .global)
+                        .onChanged { value in
+                        }
+                        .onEnded { _ in
+                            self.isPresented.toggle()
+                        }
+                )
                 VStack {
                     Color(CustomizeColor.clearBackground)
                 }
+                .onTapGesture {
+                    self.isPresented.toggle()
+                }
             }
             .edgesIgnoringSafeArea(.all)
-            .onTapGesture {
-                self.isPresented.toggle()
-            }
         }
 
     }
