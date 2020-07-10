@@ -13,4 +13,5 @@ import UIKit
 struct CustomizeColor {
 
     static let navigationBackground = UIColor(red: UInt8(45), green: 42, blue: 66, alpha: 1.0)
+    static let clearBackground = UIColor(red: UInt8(0), green: 0, blue: 0, alpha: 0.3)
 }

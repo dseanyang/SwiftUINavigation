@@ -25,3 +25,9 @@ struct PushTestView: View {
     }
 }
 
+struct PushTestView_Previews: PreviewProvider {
+    static var previews: some View {
+        PushTestView(isPresented: .constant(false))
+    }
+}
+

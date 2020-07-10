@@ -25,3 +25,9 @@ struct ModelTestView: View {
     }
 }
 
+struct ModelTestView_Previews: PreviewProvider {
+    static var previews: some View {
+        ModelTestView(isPresented: .constant(false))
+    }
+}
+

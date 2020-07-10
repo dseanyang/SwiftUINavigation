@@ -32,7 +32,7 @@ struct DrawerView: View {
 
         .navigationBarItems(leading: Image("buttonInform").onTapGesture {
             // TODO: Show menu and change mainView
-            self.navigationViewModel.present(modelView: AnyView(PushTestView(isPresented: self.$navigationViewModel.isShowModelView)), isShowModelView: true, type: .push)
+            self.navigationViewModel.present(modelView: AnyView(MenuView(isPresented: self.$navigationViewModel.isShowModelView)), isShowModelView: true, type: .push)
         })
     }
 }

@@ -26,6 +26,7 @@
 		814B9C6824B6ED4400AD5F94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 814B9C6624B6ED4400AD5F94 /* LaunchScreen.storyboard */; };
 		814B9C7324B6ED4400AD5F94 /* SwiftUINavigationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814B9C7224B6ED4400AD5F94 /* SwiftUINavigationTests.swift */; };
 		814B9C7E24B6ED4400AD5F94 /* SwiftUINavigationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814B9C7D24B6ED4400AD5F94 /* SwiftUINavigationUITests.swift */; };
+		81F855F124B862380087399C /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F855F024B862380087399C /* MenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		814B9C7924B6ED4400AD5F94 /* SwiftUINavigationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUINavigationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		814B9C7D24B6ED4400AD5F94 /* SwiftUINavigationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUINavigationUITests.swift; sourceTree = "<group>"; };
 		814B9C7F24B6ED4400AD5F94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81F855F024B862380087399C /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				813A465724B8073900C8A118 /* PushTestView.swift */,
 				813A465924B80C1800C8A118 /* ModelTestView.swift */,
 				813A465D24B80EB000C8A118 /* DetailViewView.swift */,
+				81F855F024B862380087399C /* MenuView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -326,6 +329,7 @@
 				813A464C24B7FB1800C8A118 /* BaseView.swift in Sources */,
 				813A465624B8065200C8A118 /* DrawerView.swift in Sources */,
 				813A464E24B7FE8300C8A118 /* CustomizeColor.swift in Sources */,
+				81F855F124B862380087399C /* MenuView.swift in Sources */,
 				813A465824B8073900C8A118 /* PushTestView.swift in Sources */,
 				813A464A24B7F9E900C8A118 /* NavigationView.swift in Sources */,
 				813A465424B8012900C8A118 /* LoginView.swift in Sources */,
