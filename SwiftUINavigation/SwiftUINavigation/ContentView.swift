@@ -3,14 +3,20 @@
 //  SwiftUINavigation
 //
 //  Created by 楊德忻 on 2020/7/9.
-//  Copyright © 2020 sean. All rights reserved.
+//  Copyright © 2020 Potentia Computing Inc. All rights reserved.
 //
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        NavigationViewPage(content:
+            BaseView(content:
+                VStack {
+                    Text("")
+                }
+            )
+        )
     }
 }
 

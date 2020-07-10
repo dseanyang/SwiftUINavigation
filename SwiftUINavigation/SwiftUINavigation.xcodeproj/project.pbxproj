@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		813A464624B7F82200C8A118 /* PresentModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813A464524B7F82200C8A118 /* PresentModifier.swift */; };
+		813A464824B7F93300C8A118 /* NavigationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813A464724B7F93300C8A118 /* NavigationViewModel.swift */; };
+		813A464A24B7F9E900C8A118 /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813A464924B7F9E900C8A118 /* NavigationView.swift */; };
+		813A464C24B7FB1800C8A118 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813A464B24B7FB1800C8A118 /* BaseView.swift */; };
 		814B9C5C24B6ED4300AD5F94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814B9C5B24B6ED4300AD5F94 /* AppDelegate.swift */; };
 		814B9C5E24B6ED4300AD5F94 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814B9C5D24B6ED4300AD5F94 /* SceneDelegate.swift */; };
 		814B9C6024B6ED4300AD5F94 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814B9C5F24B6ED4300AD5F94 /* ContentView.swift */; };
@@ -35,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		813A464524B7F82200C8A118 /* PresentModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentModifier.swift; sourceTree = "<group>"; };
+		813A464724B7F93300C8A118 /* NavigationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationViewModel.swift; sourceTree = "<group>"; };
+		813A464924B7F9E900C8A118 /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
+		813A464B24B7FB1800C8A118 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		814B9C5824B6ED4300AD5F94 /* SwiftUINavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUINavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		814B9C5B24B6ED4300AD5F94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		814B9C5D24B6ED4300AD5F94 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +110,10 @@
 				814B9C5B24B6ED4300AD5F94 /* AppDelegate.swift */,
 				814B9C5D24B6ED4300AD5F94 /* SceneDelegate.swift */,
 				814B9C5F24B6ED4300AD5F94 /* ContentView.swift */,
+				813A464524B7F82200C8A118 /* PresentModifier.swift */,
+				813A464724B7F93300C8A118 /* NavigationViewModel.swift */,
+				813A464924B7F9E900C8A118 /* NavigationView.swift */,
+				813A464B24B7FB1800C8A118 /* BaseView.swift */,
 				814B9C6124B6ED4400AD5F94 /* Assets.xcassets */,
 				814B9C6624B6ED4400AD5F94 /* LaunchScreen.storyboard */,
 				814B9C6924B6ED4400AD5F94 /* Info.plist */,
@@ -200,7 +212,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1150;
 				LastUpgradeCheck = 1150;
-				ORGANIZATIONNAME = sean;
+				ORGANIZATIONNAME = "Potentia Computing Inc.";
 				TargetAttributes = {
 					814B9C5724B6ED4300AD5F94 = {
 						CreatedOnToolsVersion = 11.5;
@@ -267,8 +279,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				813A464624B7F82200C8A118 /* PresentModifier.swift in Sources */,
+				813A464824B7F93300C8A118 /* NavigationViewModel.swift in Sources */,
 				814B9C5C24B6ED4300AD5F94 /* AppDelegate.swift in Sources */,
 				814B9C5E24B6ED4300AD5F94 /* SceneDelegate.swift in Sources */,
+				813A464C24B7FB1800C8A118 /* BaseView.swift in Sources */,
+				813A464A24B7F9E900C8A118 /* NavigationView.swift in Sources */,
 				814B9C6024B6ED4300AD5F94 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
