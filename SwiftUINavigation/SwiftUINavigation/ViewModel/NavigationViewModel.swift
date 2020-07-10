@@ -11,7 +11,7 @@ import Combine
 
 final class NavigationViewModel:  ObservableObject {
 
-    @Published var isNavigationHide = false
+    @Published var isNavigationHide = true
     @Published var isShowModelView = false
     @Published private(set) var modelView: AnyView?
     @Published private(set) var type: AnimationStyle = .none

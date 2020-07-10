@@ -19,5 +19,6 @@ struct BaseView<Content>: View where Content: View {
             self.content
         }
         .edgesIgnoringSafeArea(.all)
+        .navigationBarBackButtonHidden(true)
     }
 }
