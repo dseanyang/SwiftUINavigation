@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct NavigationViewPage<Content>: View where Content: View {
+struct NavigationViewPage<Content: View>: View {
     
     @EnvironmentObject public var viewModel: NavigationViewModel
     @Environment(\.presentationMode) var presentationMode

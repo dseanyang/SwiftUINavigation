@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct BaseView<Content>: View where Content: View {
+struct BaseView<Content: View>: View {
     var backgroundColor: Color = Color.clear
     
     let content: Content
