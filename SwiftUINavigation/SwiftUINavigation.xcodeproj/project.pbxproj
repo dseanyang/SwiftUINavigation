@@ -28,7 +28,7 @@
 		8186B51824BC159B006F6714 /* Page1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8186B51724BC159B006F6714 /* Page1.swift */; };
 		8186B51A24BC1A19006F6714 /* Page2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8186B51924BC1A19006F6714 /* Page2.swift */; };
 		8186B51E24BC20E4006F6714 /* MainContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8186B51D24BC20E4006F6714 /* MainContainer.swift */; };
-		81F855F124B862380087399C /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F855F024B862380087399C /* MenuView.swift */; };
+		8186B52024BC5198006F6714 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8186B51F24BC5198006F6714 /* MenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,7 +76,7 @@
 		8186B51724BC159B006F6714 /* Page1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page1.swift; sourceTree = "<group>"; };
 		8186B51924BC1A19006F6714 /* Page2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page2.swift; sourceTree = "<group>"; };
 		8186B51D24BC20E4006F6714 /* MainContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContainer.swift; sourceTree = "<group>"; };
-		81F855F024B862380087399C /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		8186B51F24BC5198006F6714 /* MenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,10 +114,10 @@
 				813A465724B8073900C8A118 /* PushTestView.swift */,
 				813A465924B80C1800C8A118 /* ModelTestView.swift */,
 				813A465D24B80EB000C8A118 /* DetailViewView.swift */,
-				81F855F024B862380087399C /* MenuView.swift */,
 				8186B51724BC159B006F6714 /* Page1.swift */,
 				8186B51924BC1A19006F6714 /* Page2.swift */,
 				8186B51D24BC20E4006F6714 /* MainContainer.swift */,
+				8186B51F24BC5198006F6714 /* MenuView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -332,11 +332,11 @@
 				8186B51824BC159B006F6714 /* Page1.swift in Sources */,
 				814B9C5C24B6ED4300AD5F94 /* AppDelegate.swift in Sources */,
 				814B9C5E24B6ED4300AD5F94 /* SceneDelegate.swift in Sources */,
+				8186B52024BC5198006F6714 /* MenuView.swift in Sources */,
 				813A465024B8006C00C8A118 /* UIColor.swift in Sources */,
 				813A464C24B7FB1800C8A118 /* BaseView.swift in Sources */,
 				813A464E24B7FE8300C8A118 /* CustomizeColor.swift in Sources */,
 				8186B51A24BC1A19006F6714 /* Page2.swift in Sources */,
-				81F855F124B862380087399C /* MenuView.swift in Sources */,
 				813A465824B8073900C8A118 /* PushTestView.swift in Sources */,
 				8186B51E24BC20E4006F6714 /* MainContainer.swift in Sources */,
 				813A464A24B7F9E900C8A118 /* NavigationView.swift in Sources */,
