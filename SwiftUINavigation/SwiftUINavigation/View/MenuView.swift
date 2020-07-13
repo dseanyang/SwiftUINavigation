@@ -22,7 +22,7 @@ struct MenuView: View {
                     VStack {
                         List(self.pages, id: \.self) { (page)  in
                             HStack {
-                               Text(page)
+                                Text(page).foregroundColor(.white)
                             }
                             .contentShape(Rectangle())
                             .onTapGesture {
