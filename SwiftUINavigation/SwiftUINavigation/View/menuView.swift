@@ -11,7 +11,7 @@ import SwiftUI
 struct MenuView: View {
     // TODO: Use viewmodel
     @Binding var isPresented: Bool
-    
+    @EnvironmentObject public var navigationViewModel: NavigationViewModel
     var pages = ["Page1", "Page2"]
     
     var body: some View {
@@ -26,7 +26,12 @@ struct MenuView: View {
                             }
                             .contentShape(Rectangle())
                             .onTapGesture {
-                                print("\(page)")
+                                if page == "Page1" {
+                                    self.navigationViewModel.setMain(view: Page1())
+                                }
+                                else {
+                                    self.navigationViewModel.setMain(view: Page2())
+                                }
                                 self.isPresented.toggle()
                             }
                         }
@@ -37,7 +42,6 @@ struct MenuView: View {
                         }
                     }
                     .padding(44)
-
                 }
                 .frame(width: 300)
                 .gesture(

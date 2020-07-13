@@ -1,14 +1,14 @@
 //
-//  DrawerView.swift
+//  Page1.swift
 //  SwiftUINavigation
 //
-//  Created by 楊德忻 on 2020/7/10.
+//  Created by 楊德忻 on 2020/7/13.
 //  Copyright © 2020 Potentia Computing Inc. All rights reserved.
 //
 
 import SwiftUI
 
-struct DrawerView: View {
+struct Page1: View {
     // TODO: Use viewmodel
     @State var isDetailShow = false
     @EnvironmentObject var navigationViewModel: NavigationViewModel
@@ -37,8 +37,8 @@ struct DrawerView: View {
     }
 }
 
-struct DrawerView_Previews: PreviewProvider {
+struct Page1_Previews: PreviewProvider {
     static var previews: some View {
-        DrawerView()
+        Page1()
     }
 }

@@ -24,4 +24,10 @@ final class NavigationViewModel:  ObservableObject {
         }
     }
     
+    @Published var main: AnyView?
+    
+    public func setMain<Main: View>(view: Main) {
+        let container = MainContainer(content: view)
+        self.main = AnyView(container)
+    }
 }
